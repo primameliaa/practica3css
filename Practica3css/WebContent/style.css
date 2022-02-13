@@ -1,0 +1,77 @@
+@font-face {
+	font-family: PottaOne;
+	src: url(fuentes/PottaOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: YuseiMagic;
+    src: url(fonts/YuseiMagic-Regular.ttf);
+}
+
+h1 {
+	background-color: blue;
+	color: yellow;
+	font-family: 'Potta One', sans-serif;
+	font-size: 3vw;
+	text-align: center;
+	width: 75vw;
+}
+
+.inicio p {
+	display: inline-block;
+	position: relative;
+	margin: 0;
+	font-size: 1.2 vw;
+}
+
+p.turquesa {
+	color: white;
+	background-color: #008080;
+	width: 25vw;
+	position: static;
+	display: inline-block;
+}
+
+p.yellow {
+	line-height: 200%;
+	position: absolute;
+	display: inline-block;
+	width: 70vw;
+}
+.yellow mark{
+	color:yellow;
+	background-color:black;
+}
+
+hr.medio {
+	width: 50%;
+}
+
+hr.medio2 {
+	width: 50%;
+	position: relative;
+	left: 10vw;
+	top: -1vw;
+}
+
+hr.azul {
+    background-color: blue;
+    width: 75vw;
+    height: 1vh;
+    margin:0;
+    padding:0; 
+}
+
+.desplazado {
+	position: relative;
+	top: -10px;
+}
+
+.coda {
+	font-family: 'Coda Caption', sans-serif;
+}
+
+.magic {
+	font-family: 'Yusei Magic', sans-serif;
+	font-weight: bold;
+}
